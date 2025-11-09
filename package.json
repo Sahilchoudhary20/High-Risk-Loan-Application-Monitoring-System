@@ -7,7 +7,7 @@
     "dev": "ts-node-dev --respawn --transpile-only src/app.ts",
     "build": "tsc",
     "start": "node dist/app.js",
-   "lint": "eslint ./src --ext .ts,.tsx --max-warnings=0",
+    "lint": "eslint ./src --ext .ts,.tsx --max-warnings=0",
     "test": "jest --runInBand --coverage"
   },
   "repository": {
@@ -33,6 +33,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
+    "@types/cors": "^2.8.19",
     "@types/express": "^5.0.5",
     "@types/jest": "^30.0.0",
     "@types/morgan": "^1.9.10",
