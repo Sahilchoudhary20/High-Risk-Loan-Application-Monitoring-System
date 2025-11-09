@@ -2,8 +2,7 @@
   "name": "high-risk-loan-application-monitoring-system",
   "version": "1.0.0",
   "description": "",
-  "type": "module",
-  "main": "dist/server.js",
+  "main": "index.js",
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
     "build": "tsc",
